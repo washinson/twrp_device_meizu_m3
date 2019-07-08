@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter m3s, $(TARGET_DEVICE)),)
+ifneq ($(filter m3, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE		:= init.recovery.mt6755.rc
